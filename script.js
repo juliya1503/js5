@@ -9,7 +9,8 @@ function words() {
                 ++count;
                 break;
             }
-    return (count + 'Гласных') ? count : "Гласные не найдены";
+    return count ? count : "Гласные не найдены";
     
 }
-alert(words());
+alert(words() + ' Гласных буквы');
+
