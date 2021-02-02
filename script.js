@@ -9,7 +9,7 @@ function words() {
                 ++count;
                 break;
             }
-    return count ? count : "Нет совпадений";
+    return count + 'Гласных' ? count : "Гласные не найдены";
     
 }
 alert(words());
